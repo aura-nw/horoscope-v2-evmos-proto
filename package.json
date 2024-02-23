@@ -35,11 +35,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aura-nw/horoscope-v2-sei-proto"
+    "url": "https://github.com/aura-nw/horoscope-v2-evmos-proto"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/aura-nw/horoscope-v2-sei-proto/issues"
+    "url": "https://github.com/aura-nw/horoscope-v2-evmos-proto/issues"
   },
   "devDependencies": {
     "@babel/cli": "7.18.10",

@@ -1,12 +1,10 @@
-# This module represents buf.build/sei-protocol/cosmos-sdk
 version: v1
-name: buf.build/sei-protocol/cosmos-sdk
+name: buf.build/evmos/evmos
 deps:
-  - buf.build/sei-protocol/third-party
-
-breaking:
-  use:
-    - FILE
+  - buf.build/cosmos/cosmos-sdk
+  - buf.build/cosmos/cosmos-proto
+  - buf.build/cosmos/gogo-proto
+  - buf.build/googleapis/googleapis
 lint:
   use:
     - DEFAULT
@@ -18,5 +16,10 @@ lint:
     - SERVICE_SUFFIX
     - PACKAGE_VERSION_SUFFIX
     - RPC_REQUEST_STANDARD_NAME
-  ignore:
-    - tendermint
+    - RPC_REQUEST_RESPONSE_UNIQUE
+    - RPC_RESPONSE_STANDARD_NAME
+    - RPC_REQUEST_RESPONSE_UNIQUE
+    - COMMENT_MESSAGE
+breaking:
+  use:
+    - FILE

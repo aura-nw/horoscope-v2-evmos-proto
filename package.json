@@ -1,6 +1,6 @@
 {
   "name": "@horoscope-v2/evmos-proto",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Aura javascript library, generate from telescope",
   "author": "Aura Network",
   "homepage": "https://github.com/aura-nw/horoscope-v2-evmos-proto#readme",

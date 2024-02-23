@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Aura javascript library, generate from telescope",
   "author": "Aura Network",
-  "homepage": "https://github.com/aura-nw/horoscope-v2-sei-proto#readme",
+  "homepage": "https://github.com/aura-nw/horoscope-v2-evmos-proto#readme",
   "license": "SEE LICENSE IN LICENSE",
   "main": "main/index.js",
   "typings": "dist/types/index.d.ts",
